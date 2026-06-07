@@ -1,0 +1,110 @@
+{
+    "HexUnit": {
+        "checkpoints": [
+            {
+                "steps": 1099801,
+                "file_path": "results\\combat2v2_II\\HexUnit\\HexUnit-1099801.onnx",
+                "reward": 29.334387244277412,
+                "creation_time": 1780752026.6978824,
+                "auxillary_file_paths": [
+                    "results\\combat2v2_II\\HexUnit\\HexUnit-1099801.pt"
+                ]
+            },
+            {
+                "steps": 1149709,
+                "file_path": "results\\combat2v2_II\\HexUnit\\HexUnit-1149709.onnx",
+                "reward": 20.48669666905076,
+                "creation_time": 1780752924.4392397,
+                "auxillary_file_paths": [
+                    "results\\combat2v2_II\\HexUnit\\HexUnit-1149709.pt"
+                ]
+            },
+            {
+                "steps": 1199610,
+                "file_path": "results\\combat2v2_II\\HexUnit\\HexUnit-1199610.onnx",
+                "reward": 25.65720612703781,
+                "creation_time": 1780753793.7584753,
+                "auxillary_file_paths": [
+                    "results\\combat2v2_II\\HexUnit\\HexUnit-1199610.pt"
+                ]
+            },
+            {
+                "steps": 1249963,
+                "file_path": "results\\combat2v2_II\\HexUnit\\HexUnit-1249963.onnx",
+                "reward": 31.17996257543564,
+                "creation_time": 1780754640.4976356,
+                "auxillary_file_paths": [
+                    "results\\combat2v2_II\\HexUnit\\HexUnit-1249963.pt"
+                ]
+            },
+            {
+                "steps": 1299963,
+                "file_path": "results\\combat2v2_II\\HexUnit\\HexUnit-1299963.onnx",
+                "reward": 27.144188000309853,
+                "creation_time": 1780755540.022165,
+                "auxillary_file_paths": [
+                    "results\\combat2v2_II\\HexUnit\\HexUnit-1299963.pt"
+                ]
+            },
+            {
+                "steps": 1349963,
+                "file_path": "results\\combat2v2_II\\HexUnit\\HexUnit-1349963.onnx",
+                "reward": 28.505791813316467,
+                "creation_time": 1780756423.893845,
+                "auxillary_file_paths": [
+                    "results\\combat2v2_II\\HexUnit\\HexUnit-1349963.pt"
+                ]
+            },
+            {
+                "steps": 1399886,
+                "file_path": "results\\combat2v2_II\\HexUnit\\HexUnit-1399886.onnx",
+                "reward": 26.695908397436142,
+                "creation_time": 1780757291.6213775,
+                "auxillary_file_paths": [
+                    "results\\combat2v2_II\\HexUnit\\HexUnit-1399886.pt"
+                ]
+            },
+            {
+                "steps": 1449755,
+                "file_path": "results\\combat2v2_II\\HexUnit\\HexUnit-1449755.onnx",
+                "reward": 27.60959243276309,
+                "creation_time": 1780758211.59198,
+                "auxillary_file_paths": [
+                    "results\\combat2v2_II\\HexUnit\\HexUnit-1449755.pt"
+                ]
+            },
+            {
+                "steps": 1499562,
+                "file_path": "results\\combat2v2_II\\HexUnit\\HexUnit-1499562.onnx",
+                "reward": 28.853238824269045,
+                "creation_time": 1780759116.968423,
+                "auxillary_file_paths": [
+                    "results\\combat2v2_II\\HexUnit\\HexUnit-1499562.pt"
+                ]
+            },
+            {
+                "steps": 1502850,
+                "file_path": "results\\combat2v2_II\\HexUnit\\HexUnit-1502850.onnx",
+                "reward": 27.578636543431752,
+                "creation_time": 1780759259.174835,
+                "auxillary_file_paths": [
+                    "results\\combat2v2_II\\HexUnit\\HexUnit-1502850.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1502850,
+            "file_path": "results\\combat2v2_II\\HexUnit.onnx",
+            "reward": 27.578636543431752,
+            "creation_time": 1780759259.174835,
+            "auxillary_file_paths": [
+                "results\\combat2v2_II\\HexUnit\\HexUnit-1502850.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.1.1+cpu"
+    }
+}

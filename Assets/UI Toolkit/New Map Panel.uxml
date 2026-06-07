@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:ui="UnityEngine.UIElements"
+	xmlns:uie="UnityEditor.UIElements"
+	xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd">
+	<Style src="UI Styles.uss"/>
+	<ui:VisualElement class="overlayBackground">
+		<ui:VisualElement class="overlayPanel" style="width: 180px;">
+			<ui:Label text="Create New Map" style="align-self: center;"/>
+			<ui:Toggle
+				label="Generate" name="Generate" style="align-self: center;"/>
+			<ui:Toggle
+				label="Wrapping" name="Wrapping" style="align-self: center;"/>
+			<ui:Button text="Small" name="Small"/>
+			<ui:Button text="Medium" name="Medium"/>
+			<ui:Button text="Large" name="Large"/>
+			<ui:Button text="Cancel" name="Cancel" style="margin: 4px;"/>
+		</ui:VisualElement>
+	</ui:VisualElement>
+</ui:UXML>

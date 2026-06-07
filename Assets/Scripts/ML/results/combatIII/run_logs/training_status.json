@@ -1,0 +1,101 @@
+{
+    "HexUnit": {
+        "checkpoints": [
+            {
+                "steps": 999870,
+                "file_path": "results\\combatIII\\HexUnit\\HexUnit-999870.onnx",
+                "reward": 36.060080303065476,
+                "creation_time": 1780257480.3894997,
+                "auxillary_file_paths": [
+                    "results\\combatIII\\HexUnit\\HexUnit-999870.pt"
+                ]
+            },
+            {
+                "steps": 1049730,
+                "file_path": "results\\combatIII\\HexUnit\\HexUnit-1049730.onnx",
+                "reward": 32.54090856653796,
+                "creation_time": 1780258140.6428094,
+                "auxillary_file_paths": [
+                    "results\\combatIII\\HexUnit\\HexUnit-1049730.pt"
+                ]
+            },
+            {
+                "steps": 1099969,
+                "file_path": "results\\combatIII\\HexUnit\\HexUnit-1099969.onnx",
+                "reward": 35.51663630895994,
+                "creation_time": 1780258794.6673841,
+                "auxillary_file_paths": [
+                    "results\\combatIII\\HexUnit\\HexUnit-1099969.pt"
+                ]
+            },
+            {
+                "steps": 1149979,
+                "file_path": "results\\combatIII\\HexUnit\\HexUnit-1149979.onnx",
+                "reward": 28.452976315708483,
+                "creation_time": 1780259448.0390434,
+                "auxillary_file_paths": [
+                    "results\\combatIII\\HexUnit\\HexUnit-1149979.pt"
+                ]
+            },
+            {
+                "steps": 1199899,
+                "file_path": "results\\combatIII\\HexUnit\\HexUnit-1199899.onnx",
+                "reward": 36.23305502751978,
+                "creation_time": 1780260114.5755272,
+                "auxillary_file_paths": [
+                    "results\\combatIII\\HexUnit\\HexUnit-1199899.pt"
+                ]
+            },
+            {
+                "steps": 1249669,
+                "file_path": "results\\combatIII\\HexUnit\\HexUnit-1249669.onnx",
+                "reward": 31.342036290602252,
+                "creation_time": 1780260794.651176,
+                "auxillary_file_paths": [
+                    "results\\combatIII\\HexUnit\\HexUnit-1249669.pt"
+                ]
+            },
+            {
+                "steps": 1299858,
+                "file_path": "results\\combatIII\\HexUnit\\HexUnit-1299858.onnx",
+                "reward": 29.25308185600373,
+                "creation_time": 1780261479.2345564,
+                "auxillary_file_paths": [
+                    "results\\combatIII\\HexUnit\\HexUnit-1299858.pt"
+                ]
+            },
+            {
+                "steps": 1349744,
+                "file_path": "results\\combatIII\\HexUnit\\HexUnit-1349744.onnx",
+                "reward": 30.428508549082007,
+                "creation_time": 1780262160.5217297,
+                "auxillary_file_paths": [
+                    "results\\combatIII\\HexUnit\\HexUnit-1349744.pt"
+                ]
+            },
+            {
+                "steps": 1399946,
+                "file_path": "results\\combatIII\\HexUnit\\HexUnit-1399946.onnx",
+                "reward": 31.660526911417644,
+                "creation_time": 1780262836.6393204,
+                "auxillary_file_paths": [
+                    "results\\combatIII\\HexUnit\\HexUnit-1399946.pt"
+                ]
+            },
+            {
+                "steps": 1449843,
+                "file_path": "results\\combatIII\\HexUnit\\HexUnit-1449843.onnx",
+                "reward": null,
+                "creation_time": 1780263528.074397,
+                "auxillary_file_paths": [
+                    "results\\combatIII\\HexUnit\\HexUnit-1449843.pt"
+                ]
+            }
+        ]
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.1.1+cpu"
+    }
+}

@@ -1,0 +1,692 @@
+{
+    "name": "root",
+    "gauges": {
+        "HexUnit.Policy.Entropy.mean": {
+            "value": 0.26529866456985474,
+            "min": 0.19446532428264618,
+            "max": 1.4226858615875244,
+            "count": 740
+        },
+        "HexUnit.Policy.Entropy.sum": {
+            "value": 507.25103759765625,
+            "min": 259.9496765136719,
+            "max": 3420.0546875,
+            "count": 740
+        },
+        "HexUnit.Step.mean": {
+            "value": 1479924.0,
+            "min": 1630.0,
+            "max": 1479924.0,
+            "count": 740
+        },
+        "HexUnit.Step.sum": {
+            "value": 1479924.0,
+            "min": 1630.0,
+            "max": 1479924.0,
+            "count": 740
+        },
+        "HexUnit.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 12.840405464172363,
+            "min": -1.5313148498535156,
+            "max": 15.050777435302734,
+            "count": 740
+        },
+        "HexUnit.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 141.2444610595703,
+            "min": -12.547362327575684,
+            "max": 251.4293212890625,
+            "count": 740
+        },
+        "HexUnit.Policy.CuriosityValueEstimate.mean": {
+            "value": 0.030770396813750267,
+            "min": -0.16160844266414642,
+            "max": 0.10535988956689835,
+            "count": 740
+        },
+        "HexUnit.Policy.CuriosityValueEstimate.sum": {
+            "value": 0.3384743630886078,
+            "min": -1.454475998878479,
+            "max": 0.9482390284538269,
+            "count": 740
+        },
+        "HexUnit.Environment.EpisodeLength.mean": {
+            "value": 172.8181818181818,
+            "min": 93.0,
+            "max": 864.0,
+            "count": 740
+        },
+        "HexUnit.Environment.EpisodeLength.sum": {
+            "value": 1901.0,
+            "min": 244.0,
+            "max": 3632.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.Moves.mean": {
+            "value": 47.2,
+            "min": 20.6,
+            "max": 571.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.Moves.sum": {
+            "value": 472.0,
+            "min": 100.0,
+            "max": 2100.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.Attacks.mean": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 6.5,
+            "count": 740
+        },
+        "HexUnit.HexUnit.Attacks.sum": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 13.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.Gathers.mean": {
+            "value": 70.1,
+            "min": 10.0,
+            "max": 291.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.Gathers.sum": {
+            "value": 701.0,
+            "min": 20.0,
+            "max": 1410.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.Deposits.mean": {
+            "value": 7.0,
+            "min": 0.0,
+            "max": 38.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.Deposits.sum": {
+            "value": 70.0,
+            "min": 0.0,
+            "max": 162.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.Deaths.mean": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.Deaths.sum": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.Kills.mean": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.Kills.sum": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.Upgrades.mean": {
+            "value": 1.2,
+            "min": 0.0,
+            "max": 2.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.Upgrades.sum": {
+            "value": 12.0,
+            "min": 0.0,
+            "max": 30.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.TotalReward.mean": {
+            "value": 22.299114418029784,
+            "min": -13.317316055297852,
+            "max": 94.9404525756836,
+            "count": 740
+        },
+        "HexUnit.HexUnit.TotalReward.sum": {
+            "value": 222.99114418029785,
+            "min": -50.4046516418457,
+            "max": 510.22503185272217,
+            "count": 740
+        },
+        "HexUnit.HexUnit.Steps.mean": {
+            "value": 189.1,
+            "min": 94.0,
+            "max": 952.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.Steps.sum": {
+            "value": 1891.0,
+            "min": 246.0,
+            "max": 3632.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T0.Moves.mean": {
+            "value": 46.2,
+            "min": 17.4,
+            "max": 685.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T0.Moves.sum": {
+            "value": 231.0,
+            "min": 47.0,
+            "max": 1074.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T0.Gathers.mean": {
+            "value": 75.4,
+            "min": 10.0,
+            "max": 350.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T0.Gathers.sum": {
+            "value": 377.0,
+            "min": 10.0,
+            "max": 705.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T0.Deposits.mean": {
+            "value": 7.2,
+            "min": 0.0,
+            "max": 46.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T0.Deposits.sum": {
+            "value": 36.0,
+            "min": 0.0,
+            "max": 85.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T0.Attacks.mean": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 6.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T0.Attacks.sum": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 8.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T0.Kills.mean": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T0.Kills.sum": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T0.Deaths.mean": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T0.Deaths.sum": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T0.Upgrades.mean": {
+            "value": 0.8,
+            "min": 0.0,
+            "max": 2.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T0.Upgrades.sum": {
+            "value": 4.0,
+            "min": 0.0,
+            "max": 16.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T0.Steps.mean": {
+            "value": 191.4,
+            "min": 95.66666666666667,
+            "max": 913.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T0.Steps.sum": {
+            "value": 957.0,
+            "min": 128.0,
+            "max": 1858.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T0.TotalReward.mean": {
+            "value": 19.702546691894533,
+            "min": -14.469124794006348,
+            "max": 104.50213623046875,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T0.TotalReward.sum": {
+            "value": 98.51273345947266,
+            "min": -28.938249588012695,
+            "max": 265.4465103149414,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T1.Moves.mean": {
+            "value": 48.2,
+            "min": 15.875,
+            "max": 599.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T1.Moves.sum": {
+            "value": 241.0,
+            "min": 53.0,
+            "max": 1079.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T1.Gathers.mean": {
+            "value": 64.8,
+            "min": 10.0,
+            "max": 309.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T1.Gathers.sum": {
+            "value": 324.0,
+            "min": 10.0,
+            "max": 705.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T1.Deposits.mean": {
+            "value": 6.8,
+            "min": 0.0,
+            "max": 49.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T1.Deposits.sum": {
+            "value": 34.0,
+            "min": 0.0,
+            "max": 91.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T1.Attacks.mean": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 7.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T1.Attacks.sum": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 8.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T1.Kills.mean": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T1.Kills.sum": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T1.Deaths.mean": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T1.Deaths.sum": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T1.Upgrades.mean": {
+            "value": 1.6,
+            "min": 0.0,
+            "max": 2.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T1.Upgrades.sum": {
+            "value": 8.0,
+            "min": 0.0,
+            "max": 16.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T1.Steps.mean": {
+            "value": 186.8,
+            "min": 92.33333333333333,
+            "max": 991.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T1.Steps.sum": {
+            "value": 934.0,
+            "min": 118.0,
+            "max": 1819.0,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T1.TotalReward.mean": {
+            "value": 24.89568214416504,
+            "min": -19.23765754699707,
+            "max": 94.30235290527344,
+            "count": 740
+        },
+        "HexUnit.HexUnit.T1.TotalReward.sum": {
+            "value": 124.4784107208252,
+            "min": -30.258840560913086,
+            "max": 245.421630859375,
+            "count": 740
+        },
+        "HexUnit.Environment.CumulativeReward.mean": {
+            "value": 21.694063232026316,
+            "min": -10.636299967765808,
+            "max": 89.20329856872559,
+            "count": 740
+        },
+        "HexUnit.Environment.CumulativeReward.sum": {
+            "value": 238.6346955522895,
+            "min": -50.52860042825341,
+            "max": 483.9046039581299,
+            "count": 740
+        },
+        "HexUnit.Policy.ExtrinsicReward.mean": {
+            "value": 21.694063232026316,
+            "min": -10.636299967765808,
+            "max": 89.20329856872559,
+            "count": 740
+        },
+        "HexUnit.Policy.ExtrinsicReward.sum": {
+            "value": 238.6346955522895,
+            "min": -50.52860042825341,
+            "max": 483.9046039581299,
+            "count": 740
+        },
+        "HexUnit.Policy.CuriosityReward.mean": {
+            "value": 0.029269476527009498,
+            "min": 0.0,
+            "max": 2.411621139291674,
+            "count": 740
+        },
+        "HexUnit.Policy.CuriosityReward.sum": {
+            "value": 0.3219642417971045,
+            "min": 0.0,
+            "max": 12.05810569645837,
+            "count": 740
+        },
+        "HexUnit.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 740
+        },
+        "HexUnit.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 740
+        },
+        "HexUnit.Losses.PolicyLoss.mean": {
+            "value": 0.024381244632725913,
+            "min": 0.01959438943110096,
+            "max": 0.03110933294131731,
+            "count": 71
+        },
+        "HexUnit.Losses.PolicyLoss.sum": {
+            "value": 0.024381244632725913,
+            "min": 0.01959438943110096,
+            "max": 0.03110933294131731,
+            "count": 71
+        },
+        "HexUnit.Losses.ValueLoss.mean": {
+            "value": 2.538330535093943,
+            "min": 0.2905347004532814,
+            "max": 2.538330535093943,
+            "count": 71
+        },
+        "HexUnit.Losses.ValueLoss.sum": {
+            "value": 2.538330535093943,
+            "min": 0.2905347004532814,
+            "max": 2.538330535093943,
+            "count": 71
+        },
+        "HexUnit.Policy.LearningRate.mean": {
+            "value": 0.00010000000000000003,
+            "min": 0.00010000000000000003,
+            "max": 0.00010000000000000003,
+            "count": 71
+        },
+        "HexUnit.Policy.LearningRate.sum": {
+            "value": 0.00010000000000000003,
+            "min": 0.00010000000000000003,
+            "max": 0.00010000000000000003,
+            "count": 71
+        },
+        "HexUnit.Policy.Epsilon.mean": {
+            "value": 0.19999999999999993,
+            "min": 0.19999999999999993,
+            "max": 0.19999999999999993,
+            "count": 71
+        },
+        "HexUnit.Policy.Epsilon.sum": {
+            "value": 0.19999999999999993,
+            "min": 0.19999999999999993,
+            "max": 0.19999999999999993,
+            "count": 71
+        },
+        "HexUnit.Policy.Beta.mean": {
+            "value": 0.001,
+            "min": 0.001,
+            "max": 0.001,
+            "count": 71
+        },
+        "HexUnit.Policy.Beta.sum": {
+            "value": 0.001,
+            "min": 0.001,
+            "max": 0.001,
+            "count": 71
+        },
+        "HexUnit.Losses.CuriosityForwardLoss.mean": {
+            "value": 0.011909444769844412,
+            "min": 0.01097531554599603,
+            "max": 0.2627248756587505,
+            "count": 71
+        },
+        "HexUnit.Losses.CuriosityForwardLoss.sum": {
+            "value": 0.011909444769844412,
+            "min": 0.01097531554599603,
+            "max": 0.2627248756587505,
+            "count": 71
+        },
+        "HexUnit.Losses.CuriosityInverseLoss.mean": {
+            "value": 0.003217704567941837,
+            "min": 0.0025853423033064854,
+            "max": 1.9851809442043304,
+            "count": 71
+        },
+        "HexUnit.Losses.CuriosityInverseLoss.sum": {
+            "value": 0.003217704567941837,
+            "min": 0.0025853423033064854,
+            "max": 1.9851809442043304,
+            "count": 71
+        }
+    },
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1780238771",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\ml_venv\\Scripts\\mlagents-learn config.yaml --run-id=combatIII",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.1.1+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1780263962"
+    },
+    "total": 25191.486827400004,
+    "count": 1,
+    "self": 0.005411899997852743,
+    "children": {
+        "run_training.setup": {
+            "total": 0.08294690000184346,
+            "count": 1,
+            "self": 0.08294690000184346
+        },
+        "TrainerController.start_learning": {
+            "total": 25191.398468600004,
+            "count": 1,
+            "self": 29.10641750196737,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 4.996610999998666,
+                    "count": 1,
+                    "self": 4.996610999998666
+                },
+                "TrainerController.advance": {
+                    "total": 25157.292013398037,
+                    "count": 1484815,
+                    "self": 26.95211730038136,
+                    "children": {
+                        "env_step": {
+                            "total": 24435.834120897925,
+                            "count": 1484815,
+                            "self": 22283.061886599316,
+                            "children": {
+                                "SubprocessEnvManager._take_step": {
+                                    "total": 2132.722759201006,
+                                    "count": 1484815,
+                                    "self": 74.67831820022184,
+                                    "children": {
+                                        "TorchPolicy.evaluate": {
+                                            "total": 2058.044441000784,
+                                            "count": 1482053,
+                                            "self": 2058.044441000784
+                                        }
+                                    }
+                                },
+                                "workers": {
+                                    "total": 20.049475097603136,
+                                    "count": 1484814,
+                                    "self": 0.0,
+                                    "children": {
+                                        "worker_root": {
+                                            "total": 25138.098354899797,
+                                            "count": 1484814,
+                                            "is_parallel": true,
+                                            "self": 4235.37597929993,
+                                            "children": {
+                                                "steps_from_proto": {
+                                                    "total": 0.0007077000009303447,
+                                                    "count": 1,
+                                                    "is_parallel": true,
+                                                    "self": 0.00033379999877070077,
+                                                    "children": {
+                                                        "_process_rank_one_or_two_observation": {
+                                                            "total": 0.0003739000021596439,
+                                                            "count": 2,
+                                                            "is_parallel": true,
+                                                            "self": 0.0003739000021596439
+                                                        }
+                                                    }
+                                                },
+                                                "UnityEnvironment.step": {
+                                                    "total": 20902.721667899867,
+                                                    "count": 1484814,
+                                                    "is_parallel": true,
+                                                    "self": 117.68517180919662,
+                                                    "children": {
+                                                        "UnityEnvironment._generate_step_input": {
+                                                            "total": 95.67159770096987,
+                                                            "count": 1484814,
+                                                            "is_parallel": true,
+                                                            "self": 95.67159770096987
+                                                        },
+                                                        "communicator.exchange": {
+                                                            "total": 20286.084073795613,
+                                                            "count": 1484814,
+                                                            "is_parallel": true,
+                                                            "self": 20286.084073795613
+                                                        },
+                                                        "steps_from_proto": {
+                                                            "total": 403.2808245940869,
+                                                            "count": 1484814,
+                                                            "is_parallel": true,
+                                                            "self": 241.79474659932748,
+                                                            "children": {
+                                                                "_process_rank_one_or_two_observation": {
+                                                                    "total": 161.4860779947594,
+                                                                    "count": 2969628,
+                                                                    "is_parallel": true,
+                                                                    "self": 161.4860779947594
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "trainer_advance": {
+                            "total": 694.5057751997301,
+                            "count": 1484814,
+                            "self": 35.29989339551685,
+                            "children": {
+                                "process_trajectory": {
+                                    "total": 125.49600690421721,
+                                    "count": 1484814,
+                                    "self": 123.69554750422685,
+                                    "children": {
+                                        "RLTrainer._checkpoint": {
+                                            "total": 1.800459399990359,
+                                            "count": 29,
+                                            "self": 1.800459399990359
+                                        }
+                                    }
+                                },
+                                "_update_policy": {
+                                    "total": 533.7098748999961,
+                                    "count": 71,
+                                    "self": 319.71773229999235,
+                                    "children": {
+                                        "TorchPPOOptimizer.update": {
+                                            "total": 213.99214260000372,
+                                            "count": 4260,
+                                            "self": 213.99214260000372
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "trainer_threads": {
+                    "total": 3.3000032999552786e-06,
+                    "count": 1,
+                    "self": 3.3000032999552786e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.0034233999977004714,
+                    "count": 1,
+                    "self": 0.0001049999991664663,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.003318399998534005,
+                            "count": 1,
+                            "self": 0.003318399998534005
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

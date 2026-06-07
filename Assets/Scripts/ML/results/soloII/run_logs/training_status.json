@@ -1,0 +1,29 @@
+{
+    "HexUnit": {
+        "checkpoints": [
+            {
+                "steps": 20515,
+                "file_path": "results\\soloII\\HexUnit\\HexUnit-20515.onnx",
+                "reward": null,
+                "creation_time": 1779830835.6497667,
+                "auxillary_file_paths": [
+                    "results\\soloII\\HexUnit\\HexUnit-20515.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 20515,
+            "file_path": "results\\soloII\\HexUnit.onnx",
+            "reward": null,
+            "creation_time": 1779830835.6497667,
+            "auxillary_file_paths": [
+                "results\\soloII\\HexUnit\\HexUnit-20515.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.1.1+cpu"
+    }
+}

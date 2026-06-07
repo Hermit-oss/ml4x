@@ -1,0 +1,110 @@
+{
+    "HexUnit": {
+        "checkpoints": [
+            {
+                "steps": 699905,
+                "file_path": "results\\soloI\\HexUnit\\HexUnit-699905.onnx",
+                "reward": 12.89423662246778,
+                "creation_time": 1779822237.5910006,
+                "auxillary_file_paths": [
+                    "results\\soloI\\HexUnit\\HexUnit-699905.pt"
+                ]
+            },
+            {
+                "steps": 749797,
+                "file_path": "results\\soloI\\HexUnit\\HexUnit-749797.onnx",
+                "reward": 5.273281547240913,
+                "creation_time": 1779822706.8597162,
+                "auxillary_file_paths": [
+                    "results\\soloI\\HexUnit\\HexUnit-749797.pt"
+                ]
+            },
+            {
+                "steps": 799689,
+                "file_path": "results\\soloI\\HexUnit\\HexUnit-799689.onnx",
+                "reward": 5.921185431038876,
+                "creation_time": 1779823198.417411,
+                "auxillary_file_paths": [
+                    "results\\soloI\\HexUnit\\HexUnit-799689.pt"
+                ]
+            },
+            {
+                "steps": 825091,
+                "file_path": "results\\soloI\\HexUnit\\HexUnit-825091.onnx",
+                "reward": 9.823317662388686,
+                "creation_time": 1779823452.9593089,
+                "auxillary_file_paths": [
+                    "results\\soloI\\HexUnit\\HexUnit-825091.pt"
+                ]
+            },
+            {
+                "steps": 849546,
+                "file_path": "results\\soloI\\HexUnit\\HexUnit-849546.onnx",
+                "reward": 12.720734406786505,
+                "creation_time": 1779828223.3004956,
+                "auxillary_file_paths": [
+                    "results\\soloI\\HexUnit\\HexUnit-849546.pt"
+                ]
+            },
+            {
+                "steps": 899924,
+                "file_path": "results\\soloI\\HexUnit\\HexUnit-899924.onnx",
+                "reward": 10.992639631295818,
+                "creation_time": 1779828774.0577593,
+                "auxillary_file_paths": [
+                    "results\\soloI\\HexUnit\\HexUnit-899924.pt"
+                ]
+            },
+            {
+                "steps": 949573,
+                "file_path": "results\\soloI\\HexUnit\\HexUnit-949573.onnx",
+                "reward": 12.887151015223935,
+                "creation_time": 1779829212.102037,
+                "auxillary_file_paths": [
+                    "results\\soloI\\HexUnit\\HexUnit-949573.pt"
+                ]
+            },
+            {
+                "steps": 999590,
+                "file_path": "results\\soloI\\HexUnit\\HexUnit-999590.onnx",
+                "reward": 8.610016331506463,
+                "creation_time": 1779829647.125264,
+                "auxillary_file_paths": [
+                    "results\\soloI\\HexUnit\\HexUnit-999590.pt"
+                ]
+            },
+            {
+                "steps": 1049670,
+                "file_path": "results\\soloI\\HexUnit\\HexUnit-1049670.onnx",
+                "reward": 7.345182264816355,
+                "creation_time": 1779830101.1791675,
+                "auxillary_file_paths": [
+                    "results\\soloI\\HexUnit\\HexUnit-1049670.pt"
+                ]
+            },
+            {
+                "steps": 1058337,
+                "file_path": "results\\soloI\\HexUnit\\HexUnit-1058337.onnx",
+                "reward": 9.681667594285681,
+                "creation_time": 1779830182.3857875,
+                "auxillary_file_paths": [
+                    "results\\soloI\\HexUnit\\HexUnit-1058337.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1058337,
+            "file_path": "results\\soloI\\HexUnit.onnx",
+            "reward": 9.681667594285681,
+            "creation_time": 1779830182.3857875,
+            "auxillary_file_paths": [
+                "results\\soloI\\HexUnit\\HexUnit-1058337.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.1.1+cpu"
+    }
+}

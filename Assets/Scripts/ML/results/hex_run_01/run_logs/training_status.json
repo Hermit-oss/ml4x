@@ -1,0 +1,101 @@
+{
+    "HexUnit": {
+        "checkpoints": [
+            {
+                "steps": 99771,
+                "file_path": "results\\hex_run_01\\HexUnit\\HexUnit-99771.onnx",
+                "reward": -0.31922730400798505,
+                "creation_time": 1776895012.310752,
+                "auxillary_file_paths": [
+                    "results\\hex_run_01\\HexUnit\\HexUnit-99771.pt"
+                ]
+            },
+            {
+                "steps": 199920,
+                "file_path": "results\\hex_run_01\\HexUnit\\HexUnit-199920.onnx",
+                "reward": -0.243300024199998,
+                "creation_time": 1776895202.6781151,
+                "auxillary_file_paths": [
+                    "results\\hex_run_01\\HexUnit\\HexUnit-199920.pt"
+                ]
+            },
+            {
+                "steps": 299622,
+                "file_path": "results\\hex_run_01\\HexUnit\\HexUnit-299622.onnx",
+                "reward": -0.11246429683108415,
+                "creation_time": 1776895384.669703,
+                "auxillary_file_paths": [
+                    "results\\hex_run_01\\HexUnit\\HexUnit-299622.pt"
+                ]
+            },
+            {
+                "steps": 399615,
+                "file_path": "results\\hex_run_01\\HexUnit\\HexUnit-399615.onnx",
+                "reward": -0.07897918813008194,
+                "creation_time": 1776895569.4531515,
+                "auxillary_file_paths": [
+                    "results\\hex_run_01\\HexUnit\\HexUnit-399615.pt"
+                ]
+            },
+            {
+                "steps": 499727,
+                "file_path": "results\\hex_run_01\\HexUnit\\HexUnit-499727.onnx",
+                "reward": 0.021184945180258482,
+                "creation_time": 1776895738.0660996,
+                "auxillary_file_paths": [
+                    "results\\hex_run_01\\HexUnit\\HexUnit-499727.pt"
+                ]
+            },
+            {
+                "steps": 599688,
+                "file_path": "results\\hex_run_01\\HexUnit\\HexUnit-599688.onnx",
+                "reward": 0.10607141296246222,
+                "creation_time": 1776895950.048462,
+                "auxillary_file_paths": [
+                    "results\\hex_run_01\\HexUnit\\HexUnit-599688.pt"
+                ]
+            },
+            {
+                "steps": 699959,
+                "file_path": "results\\hex_run_01\\HexUnit\\HexUnit-699959.onnx",
+                "reward": 0.16104068091412638,
+                "creation_time": 1776896158.9320176,
+                "auxillary_file_paths": [
+                    "results\\hex_run_01\\HexUnit\\HexUnit-699959.pt"
+                ]
+            },
+            {
+                "steps": 799684,
+                "file_path": "results\\hex_run_01\\HexUnit\\HexUnit-799684.onnx",
+                "reward": 0.21922580986433932,
+                "creation_time": 1776896386.5850286,
+                "auxillary_file_paths": [
+                    "results\\hex_run_01\\HexUnit\\HexUnit-799684.pt"
+                ]
+            },
+            {
+                "steps": 806027,
+                "file_path": "results\\hex_run_01\\HexUnit\\HexUnit-806027.onnx",
+                "reward": 0.1983382296953898,
+                "creation_time": 1776896399.8865054,
+                "auxillary_file_paths": [
+                    "results\\hex_run_01\\HexUnit\\HexUnit-806027.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 806027,
+            "file_path": "results\\hex_run_01\\HexUnit.onnx",
+            "reward": 0.1983382296953898,
+            "creation_time": 1776896399.8865054,
+            "auxillary_file_paths": [
+                "results\\hex_run_01\\HexUnit\\HexUnit-806027.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.1.1+cpu"
+    }
+}

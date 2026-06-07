@@ -1,0 +1,19 @@
+# Python dependencies for the ML-Agents training pipeline.
+# Requires Python 3.10 (newer versions break ML-Agents 1.1.0).
+#
+# Recreate the virtual environment with:
+#
+#   python -m venv ml_venv
+#   ml_venv\Scripts\activate            (Windows)
+#   source ml_venv/bin/activate         (Linux / macOS)
+#   pip install --upgrade pip
+#   pip install -r requirements.txt
+#
+# To verify the install:  mlagents-learn --help
+
+mlagents==1.1.0
+mlagents-envs==1.1.0
+torch==2.0.1
+numpy==1.23.5
+tensorboard==2.20.0
+protobuf==3.20.3

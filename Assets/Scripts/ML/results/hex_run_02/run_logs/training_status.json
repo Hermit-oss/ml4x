@@ -1,0 +1,110 @@
+{
+    "HexUnit": {
+        "checkpoints": [
+            {
+                "steps": 4549923,
+                "file_path": "results\\hex_run_02\\HexUnit\\HexUnit-4549923.onnx",
+                "reward": 4.611276724380739,
+                "creation_time": 1776926441.338259,
+                "auxillary_file_paths": [
+                    "results\\hex_run_02\\HexUnit\\HexUnit-4549923.pt"
+                ]
+            },
+            {
+                "steps": 4599617,
+                "file_path": "results\\hex_run_02\\HexUnit\\HexUnit-4599617.onnx",
+                "reward": 5.581333337371082,
+                "creation_time": 1776926892.529757,
+                "auxillary_file_paths": [
+                    "results\\hex_run_02\\HexUnit\\HexUnit-4599617.pt"
+                ]
+            },
+            {
+                "steps": 4649766,
+                "file_path": "results\\hex_run_02\\HexUnit\\HexUnit-4649766.onnx",
+                "reward": 4.397333342662831,
+                "creation_time": 1776927343.3404288,
+                "auxillary_file_paths": [
+                    "results\\hex_run_02\\HexUnit\\HexUnit-4649766.pt"
+                ]
+            },
+            {
+                "steps": 4699929,
+                "file_path": "results\\hex_run_02\\HexUnit\\HexUnit-4699929.onnx",
+                "reward": 4.802101728577419,
+                "creation_time": 1776927795.485426,
+                "auxillary_file_paths": [
+                    "results\\hex_run_02\\HexUnit\\HexUnit-4699929.pt"
+                ]
+            },
+            {
+                "steps": 4749766,
+                "file_path": "results\\hex_run_02\\HexUnit\\HexUnit-4749766.onnx",
+                "reward": 4.948636294194412,
+                "creation_time": 1776928256.2999353,
+                "auxillary_file_paths": [
+                    "results\\hex_run_02\\HexUnit\\HexUnit-4749766.pt"
+                ]
+            },
+            {
+                "steps": 4799992,
+                "file_path": "results\\hex_run_02\\HexUnit\\HexUnit-4799992.onnx",
+                "reward": 4.667201921825136,
+                "creation_time": 1776928717.2287984,
+                "auxillary_file_paths": [
+                    "results\\hex_run_02\\HexUnit\\HexUnit-4799992.pt"
+                ]
+            },
+            {
+                "steps": 4849767,
+                "file_path": "results\\hex_run_02\\HexUnit\\HexUnit-4849767.onnx",
+                "reward": 4.8274999854537395,
+                "creation_time": 1776929178.6869726,
+                "auxillary_file_paths": [
+                    "results\\hex_run_02\\HexUnit\\HexUnit-4849767.pt"
+                ]
+            },
+            {
+                "steps": 4899639,
+                "file_path": "results\\hex_run_02\\HexUnit\\HexUnit-4899639.onnx",
+                "reward": 4.924820543974279,
+                "creation_time": 1776929638.749678,
+                "auxillary_file_paths": [
+                    "results\\hex_run_02\\HexUnit\\HexUnit-4899639.pt"
+                ]
+            },
+            {
+                "steps": 4949896,
+                "file_path": "results\\hex_run_02\\HexUnit\\HexUnit-4949896.onnx",
+                "reward": 4.176750057435129,
+                "creation_time": 1776930107.154342,
+                "auxillary_file_paths": [
+                    "results\\hex_run_02\\HexUnit\\HexUnit-4949896.pt"
+                ]
+            },
+            {
+                "steps": 4984426,
+                "file_path": "results\\hex_run_02\\HexUnit\\HexUnit-4984426.onnx",
+                "reward": 4.813711130859641,
+                "creation_time": 1776930490.6783848,
+                "auxillary_file_paths": [
+                    "results\\hex_run_02\\HexUnit\\HexUnit-4984426.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4984426,
+            "file_path": "results\\hex_run_02\\HexUnit.onnx",
+            "reward": 4.813711130859641,
+            "creation_time": 1776930490.6783848,
+            "auxillary_file_paths": [
+                "results\\hex_run_02\\HexUnit\\HexUnit-4984426.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.1.1+cpu"
+    }
+}

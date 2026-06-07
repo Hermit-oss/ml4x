@@ -1,0 +1,110 @@
+{
+    "HexUnit": {
+        "checkpoints": [
+            {
+                "steps": 249808,
+                "file_path": "results\\soloIII\\HexUnit\\HexUnit-249808.onnx",
+                "reward": 7.005901025724597,
+                "creation_time": 1779832881.3516119,
+                "auxillary_file_paths": [
+                    "results\\soloIII\\HexUnit\\HexUnit-249808.pt"
+                ]
+            },
+            {
+                "steps": 299973,
+                "file_path": "results\\soloIII\\HexUnit\\HexUnit-299973.onnx",
+                "reward": 15.346307564895445,
+                "creation_time": 1779833258.9510303,
+                "auxillary_file_paths": [
+                    "results\\soloIII\\HexUnit\\HexUnit-299973.pt"
+                ]
+            },
+            {
+                "steps": 349784,
+                "file_path": "results\\soloIII\\HexUnit\\HexUnit-349784.onnx",
+                "reward": 19.154792127608932,
+                "creation_time": 1779833637.0574183,
+                "auxillary_file_paths": [
+                    "results\\soloIII\\HexUnit\\HexUnit-349784.pt"
+                ]
+            },
+            {
+                "steps": 399857,
+                "file_path": "results\\soloIII\\HexUnit\\HexUnit-399857.onnx",
+                "reward": 20.00232774275355,
+                "creation_time": 1779834028.1118066,
+                "auxillary_file_paths": [
+                    "results\\soloIII\\HexUnit\\HexUnit-399857.pt"
+                ]
+            },
+            {
+                "steps": 449923,
+                "file_path": "results\\soloIII\\HexUnit\\HexUnit-449923.onnx",
+                "reward": 15.141641024657156,
+                "creation_time": 1779834414.2352746,
+                "auxillary_file_paths": [
+                    "results\\soloIII\\HexUnit\\HexUnit-449923.pt"
+                ]
+            },
+            {
+                "steps": 499730,
+                "file_path": "results\\soloIII\\HexUnit\\HexUnit-499730.onnx",
+                "reward": 7.254578369126345,
+                "creation_time": 1779834807.8285904,
+                "auxillary_file_paths": [
+                    "results\\soloIII\\HexUnit\\HexUnit-499730.pt"
+                ]
+            },
+            {
+                "steps": 549771,
+                "file_path": "results\\soloIII\\HexUnit\\HexUnit-549771.onnx",
+                "reward": 15.442585562465764,
+                "creation_time": 1779835221.180252,
+                "auxillary_file_paths": [
+                    "results\\soloIII\\HexUnit\\HexUnit-549771.pt"
+                ]
+            },
+            {
+                "steps": 553198,
+                "file_path": "results\\soloIII\\HexUnit\\HexUnit-553198.onnx",
+                "reward": 15.605197017690024,
+                "creation_time": 1779835248.9292643,
+                "auxillary_file_paths": [
+                    "results\\soloIII\\HexUnit\\HexUnit-553198.pt"
+                ]
+            },
+            {
+                "steps": 599558,
+                "file_path": "results\\soloIII\\HexUnit\\HexUnit-599558.onnx",
+                "reward": 18.747280192428402,
+                "creation_time": 1779867662.8729262,
+                "auxillary_file_paths": [
+                    "results\\soloIII\\HexUnit\\HexUnit-599558.pt"
+                ]
+            },
+            {
+                "steps": 629825,
+                "file_path": "results\\soloIII\\HexUnit\\HexUnit-629825.onnx",
+                "reward": 17.479185089981183,
+                "creation_time": 1779867922.793415,
+                "auxillary_file_paths": [
+                    "results\\soloIII\\HexUnit\\HexUnit-629825.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 629825,
+            "file_path": "results\\soloIII\\HexUnit.onnx",
+            "reward": 17.479185089981183,
+            "creation_time": 1779867922.793415,
+            "auxillary_file_paths": [
+                "results\\soloIII\\HexUnit\\HexUnit-629825.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.1.1+cpu"
+    }
+}

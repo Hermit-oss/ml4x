@@ -1,0 +1,56 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UI%20Styles.uss?fileID=7433441132597879392&amp;guid=8e784db10c2a84708aee4d855e86572d&amp;type=3#UI Styles"/>
+
+    <!-- Left panel is purely for editing — hidden in game mode -->
+    <ui:VisualElement name="LeftPanel" class="sidePanel" style="left: 0; display: none;">
+        <ui:RadioButtonGroup label="Terrain" choices="---,Snd,Grs,Md,Stn,Sw" value="1" name="Terrain"/>
+        <ui:Toggle label="Elevation" value="true" name="ApplyElevation"/>
+        <ui:SliderInt value="0" high-value="6" name="Elevation"/>
+        <ui:Toggle label="Water" value="true" name="ApplyWaterLevel"/>
+        <ui:SliderInt value="0" high-value="6" name="WaterLevel"/>
+        <ui:RadioButtonGroup label="River" choices="---,Yes,No" value="0" name="River"/>
+        <ui:RadioButtonGroup label="Roads" choices="---,Yes,No" value="0" name="Roads"/>
+        <ui:Label text="Brush Size" style="align-self: center;"/>
+        <ui:SliderInt value="0" high-value="4" name="BrushSize"/>
+    </ui:VisualElement>
+
+    <ui:VisualElement name="RightPanel" class="sidePanel" style="right: 0;">
+
+        <!-- Editor-only controls — hidden in game mode, shown when Edit Mode is on -->
+        <ui:VisualElement name="EditorControls" style="display: none;">
+            <ui:Toggle label="Home" name="ApplyHomeLevel"/>
+            <ui:SliderInt value="0" high-value="3" name="HomeLevel"/>
+            <ui:Toggle label="Stone" name="ApplyStoneLevel"/>
+            <ui:SliderInt value="0" high-value="3" name="StoneLevel"/>
+            <ui:Toggle label="Wood" name="ApplyWoodLevel"/>
+            <ui:SliderInt value="0" high-value="3" name="WoodLevel"/>
+            <ui:RadioButtonGroup label="Walled" choices="---,Yes,No" value="0" name="Walled"/>
+            <ui:VisualElement style="flex-direction: row;">
+                <ui:Button text="Save" name="SaveButton"/>
+                <ui:Button text="Load" name="LoadButton"/>
+            </ui:VisualElement>
+            <ui:Button text="New Map" name="NewMapButton"/>
+            <ui:Toggle label="Grid" name="Grid"/>
+        </ui:VisualElement>
+
+        <!-- Always visible controls -->
+        <ui:Toggle label="Edit Mode" value="false" name="EditMode"/>
+        <ui:Toggle label="Debug Mode" value="false" name="DebugMode" focusable="true"/>
+
+        <!-- Game HUD — shown in game mode, hidden in edit mode -->
+        <ui:Label name="TurnInfoLabel" text="" style="
+            align-self: stretch;
+            white-space: normal;
+            -unity-text-align: upper-left;
+            margin-top: 6px;
+            display: none;
+        "/>
+        <ui:Button name="EndTurnButton"       text="End Turn"       style="margin-top: 4px; display: none;"/>
+        <ui:Button name="GatherWoodButton"    text="Gather Wood"    style="margin-top: 2px; display: none;"/>
+        <ui:Button name="GatherStoneButton"   text="Gather Stone"   style="margin-top: 2px; display: none;"/>
+        <ui:Button name="DepositButton"       text="Deposit"        style="margin-top: 2px; display: none;"/>
+        <ui:Button name="UpgradeHomeButton"   text="Upgrade Home"   style="margin-top: 2px; display: none;"/>
+        <ui:Button name="RaiseHomeButton"     text="Raise Home"     style="margin-top: 2px; display: none;"/>
+        <ui:Button name="ClaimVictoryButton"  text="Claim Victory!" style="margin-top: 2px; display: none;"/>
+    </ui:VisualElement>
+</ui:UXML>
