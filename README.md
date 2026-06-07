@@ -47,9 +47,6 @@ Monitor with TensorBoard:
 tensorboard --logdir Assets/Scripts/ML/results --port 6006
 ```
 
-Full instructions, troubleshooting, and per-scenario notes are in
-`dodatekA.tex` (Appendix A of the accompanying thesis).
-
 ## Repository contents
 
 | Path | Purpose |
@@ -65,12 +62,3 @@ Full instructions, troubleshooting, and per-scenario notes are in
 Unity-generated folders (`Library/`, `Temp/`, `Logs/`, `obj/`, `Build/`,
 `UserSettings/`, `.vs/`) and Python virtualenvs (`ml_venv/`, `venv/`) are in
 `.gitignore` and **not** committed — they are regenerated locally.
-
-## Origin & credit
-
-This project extends the Hex Map tutorial series by
-[Jasper Flick / Catlike Coding](https://catlikecoding.com/unity/hex-map/) with
-turn-based gameplay, resource and combat mechanics, and reinforcement-learning
-agents trained via Unity ML-Agents. Original Hex Map code released under the
-[MIT-0 license](LICENSE.md); RL extensions developed as part of a master's
-thesis project.
