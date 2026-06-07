@@ -24,13 +24,6 @@ behaviors:
         strength: 1.0
       curiosity:
         gamma: 0.99
-        # Bumped from 0.005 to 0.02 for the 2v2 combat push: the policy
-        # has never sampled a combat trajectory, so the value function
-        # has no signal to favour combat over economy. A stronger ICM
-        # intrinsic reward pushes the agent to seek genuinely novel
-        # states — and right now combat states ARE the novel ones, since
-        # 1M+ steps of training have produced almost zero combat
-        # samples. Drop back to ~0.005 once combat behaviour is stable.
         strength: 0.02
         encoding_size: 64
         learning_rate: 1.0e-3
@@ -40,85 +33,3 @@ behaviors:
     max_steps: 10000000
     time_horizon: 512
     summary_freq: 2000
-
-# ── IMPORTANT ────────────────────────────────────────────────────────────────
-# Current Vector Observation Size: 100
-# (5 self + 5 team + 4 home + 48 adjacent + 6 home-compass + 6 res-compass
-#  + 5 ally + 4 wood + 4 stone + 4 enemy-unit + 4 2nd-enemy + 4 enemy-home
-#  + 1 round = 100)
-#
-# DO NOT use --initialize-from / --resume across an obs-size change. The input
-# layer shape is baked into the checkpoint, and ML-Agents will partially load
-# what it can — the network appears to train for ~20k steps and then crashes
-# inside Adam with "tensor (old_size) must match tensor (new_size)".
-#
-# Fresh start when obs size changes:
-#   mlagents-learn Assets/Scripts/ML/config.yaml --run-id=<new_id>
-#
-# Obs history:
-#   73 → 79 → 91 → 100
-#
-# ── 1v1 TRAINING (Combat_1v1 scenario) ──────────────────────────────────────
-# Obs shape is unchanged from solo (still 91), so the soloIII checkpoint can
-# be transferred as a warm start for the economic skills. The opponent is
-# spawned automatically by TurnManager when scenario = Combat_1v1; both
-# units share the same Behavior Name "HexUnit" and the SAME TeamId (= 0)
-# so the trainer pools experience from both sides into one shared policy
-# (Independent PPO with weight sharing).
-#
-# Recommended command (from-scratch):
-#   mlagents-learn Assets/Scripts/ML/config.yaml --run-id=combatI
-#
-# Or warm-started from the economic policy:
-#   mlagents-learn Assets/Scripts/ML/config.yaml \
-#                  --run-id=combatI \
-#                  --initialize-from=soloIII
-#
-# DO NOT set BehaviorParameters.TeamId per team unless you also add a
-# `self_play:` block below. ML-Agents 1.1 turns the FQBN into
-# "HexUnit?team=N" when TeamId differs; the config above only matches the
-# plain "HexUnit" trainer, so the off-team agent gets no policy and falls
-# back to Heuristic() — which for HexUnitAgent is "always EndTurn".
-# Result: one side plays normally, the other instantly ends every turn.
-#
-# Notes:
-#   * Reward sees combat hooks (rewardDealDamage, rewardKillUnit,
-#     rewardDamageEnemyHome, rewardReduceHomeLevel, rewardEliminateTeam,
-#     penaltyDie) which were inactive in solo — expect a temporary drop in
-#     cumulative reward at the start of combat training as the policy
-#     adapts to the new sources of reward/penalty.
-#   * timeoutCountsAsLoss = true → stalemates penalised on both sides;
-#     toggle off in the scene if you want neutral draws.
-#   * Episodes are typically longer in 1v1 (combat phases extend the game)
-#     so summary_freq stays at 2000 but expect fewer episodes per window.
-#
-# ── 2v2 TRAINING (Combat_2v2 scenario) ──────────────────────────────────────
-# Two units per team — first scenario with intra-team cooperation. Obs
-# vector grew from 91 to 100 (added nearest-ally block and second-nearest-
-# enemy block), so a CLEAN run-id is required; --initialize-from from any
-# combatI..combatIII checkpoint will fail with the Adam tensor-shape error.
-#
-# Economy is deliberately pricier (upgrades 100/200, win 400/400 = 700
-# resources each) to keep the economy ↔ military balance roughly intact
-# despite having 2× the gathering throughput. Four new shaping terms
-# in HexUnitAgent cover the cooperation dynamics:
-#
-#   • rewardCoordinatedAssault — both teammates within 2 hex AND enemy
-#     within 4 hex (sticking together for a fight pays).
-#   • penaltyAllyCluster        — both teammates within 2 hex AND no
-#     enemy within 6 hex (wasted map coverage / duplicated work).
-#   • rewardDefendHome          — on/adjacent to own home AND enemy
-#     within 5 hex of that home (garrison the threatened base).
-#   • penaltyMirrorPath         — stepping onto a cell the teammate
-#     visited in the last 8 team moves (direct cost of path mirroring).
-#
-# Recommended command:
-#   mlagents-learn Assets/Scripts/ML/config.yaml --run-id=combat2v2_I --force
-#
-# Watch the new diag/TB metrics for symptoms of healthy 2v2:
-#   • HexUnit/T0/Kills + T1/Kills > 0 (engagement is finally happening)
-#   • HexUnit/T*/Deaths > 0 (some risk being taken)
-#   • Per-unit Steps roughly equal across T0 and T1 (no turn-flow regression
-#     from the doubled unit count)
-#   • Coordinated-assault and defend-home reward components dominating the
-#     ally-cluster and mirror penalties (read the TotalReward decomposition)
